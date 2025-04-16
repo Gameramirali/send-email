@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <form action="" id="form">
+            <header>Send New Email</header>
+            <main>
+                <!-- to -->
+                <div class="to">
+                    <label for="To">To:</label>
+                    <br>
+                    <input type="email" name="email" id="email">
+                </div>
+                <br>
+                <!-- subject -->
+                <div class="subject">
+                    <label for="Subject">Subject:</label>
+                    <br>
+                    <input type="text" name="Subject" id="Subject">
+                </div>
+                <br>
+                <!-- message -->
+                <div class="message">
+                     <label for="Message">Message:</label>
+                     <br>
+                     <input type="text" name="Message" id="Message">
+                </div>
+            </main>
+            <footer>
+                <input type="button" value="Submit" id="sendBtn">
+                <input type="button" value="Reset" id="resetBtn" onclick="reset2()">
+            </footer>
+        </form>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
